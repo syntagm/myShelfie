@@ -198,7 +198,7 @@ tr:hover > td {
   width: auto; }
 
 .mainMenuButton {
-  float: right;
+  float: left;
   height: 50px;
   width: 60px;
   background: url(../images/common/mainMenuButtonBg-x2.png) 0 0 no-repeat;

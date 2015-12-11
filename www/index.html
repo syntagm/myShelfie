@@ -1,42 +1,64 @@
 <!DOCTYPE html>
-<!--
-    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
-
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
     <head>
+
         <meta charset="utf-8" />
         <meta name="format-detection" content="telephone=no" />
         <meta name="msapplication-tap-highlight" content="no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <!-- Google  start -->
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <!-- Google  end -->
+
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <!-- CSS files start -->
+        <link href="css/framework.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/elements.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/responsive.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/hidpi.css" rel="stylesheet" type="text/css" media="screen" />
+        <link href="css/skin.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- CSS files end -->
+
+        <!-- JavaScript files start -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/effects.jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo-slider.min.js"></script>
+        <script type="text/javascript" src="js/jquery.colorbox.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <!-- JavaScript files end -->
+        <title>myShelfie</title>
     </head>
     <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
+      <div class="websiteWrapper">
+
+<!-- header wrapper starts -->
+    <div class="headerOuterWrapper">
+      <div class="headerWrapper"> <a class="mainLogo" href="index.html"><img src="images/common/mainLogo.png" alt=""/></a> <a href="" class="mainMenuButton"></a> </div>
+
+      <!-- main menu wrapper starts -->
+        <ul class="mainMenuWrapper">
+            </br>
+              <li><a href="index.html">Home</a></li>
+            </br>
+          <li><a href="#garage-sale" class="buttonWrapper buttonDefault buttonBolt">myShelfie</a></li>
+          <li><a href="#profile" class="buttonWrapper buttonDefault buttonBolt">Add Shelf Info</a></li>
+          <li><a class="hide-if-logged-in buttonWrapper buttonDefault buttonBolt" href="#login">Log in</a></li>
+          <li><a class="hide-if-logged-in buttonWrapper buttonDefault buttonBolt" href="#register">Register</a></li>
+          <li><a class="hide-if-not-logged-in buttonWrapper buttonDefault buttonBolt" href="#logout">Log Out</a></li>
+        </ul>
+      <!-- main menu wrapper ends -->
+
+    </div>
+
+<!-- header wrapper ends -->
+        <p> hello world</p>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">

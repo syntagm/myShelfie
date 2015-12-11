@@ -12,8 +12,8 @@ p > a {
 
 a {
   color: #ffdf50;
-  font-size: 16px;
-  line-height: 20px; }
+  font-size: 26px;
+  line-height: 30px; }
 
 li {
   color: #ffdf50;
@@ -185,28 +185,30 @@ tr:hover > td {
   padding-left: 24px;
   padding-right: 24px;
   z-index: 9990;
-  height: 100px;
+  height: 200px;
   background-color: #ffdf50;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3); }
 
 .mainLogo {
   float: left;
-  height: 100px; }
+  height: 200px; }
 
 .mainLogo > img {
-  height: 100px;
+  height: 200px;
   width: auto; }
 
 .mainMenuButton {
   float: right;
-  height: 36px;
-  width: 48px;
-  background: url(../images/common/mainMenuButtonBg.png) 0 0 no-repeat;
-  margin-top: 18px; }
+  height: 50px;
+  width: 60px;
+  background: url(../images/common/mainMenuButtonBg-x2.png) 0 0 no-repeat;
+  margin-top: 28px; }
 
 .mainMenuWrapper {
   clear: both;
   display: none;
+	top: 200px;
+  display: block;
   background-color: #333;
   color: #ffdf50;
   padding-left: 0px;

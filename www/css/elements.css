@@ -134,7 +134,7 @@ blockquote {
 	margin-bottom: 0px;
 }
 .buttonWrapper {
-	height: 16px;
+	height: 26px;
 	padding: 4px;
 	padding-right: 9px;
 	padding-left: 9px;
@@ -444,7 +444,7 @@ blockquote {
 	color: #fff;
 	display: inline;
 	padding-left: 3px;
-	padding-right: 3px;	
+	padding-right: 3px;
 }
 .highlightDefault{
     background-color: #333;
